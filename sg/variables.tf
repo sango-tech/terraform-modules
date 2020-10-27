@@ -1,6 +1,6 @@
 variable "name" {
   description = "The name of Security Group"
-  type        = number
+  type        = string
 }
 
 variable "vpc_id" {
