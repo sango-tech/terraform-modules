@@ -1,4 +1,4 @@
-# Reusable Terraform modules working with AWS
+# Reusable Terraform modules
 
 ## Import this module
 
@@ -9,15 +9,7 @@ module "webserver_cluster" {
 }
 ```
 
-## Init
-
-```shell
-# select your aws cli profile if you want to use another account other than default one.
-$ export AWS_PROFILE=private
-
-$ terraform init
-```
-
 ## Modules
-### services/webserver-cluster
-ELB - EC2 with Auto Scaling Group
+### iam: IAM
+### sg: Securyty Group
+### key_pair: Key Pair
